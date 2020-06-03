@@ -1,0 +1,105 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Gidole;
+    margin: 0;
+    padding-top: 60px;
+    min-width: 1000px;
+}
+
+div {
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+div.img {
+    background-image: url(pictures/blm-protest-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: Cornerstone;
+    font-size: 36px;
+}
+
+h3 {
+    color: cornflowerblue;
+    background-color: black;
+    font-family: Cornerstone;
+    font-size: 32px;
+    padding: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-family: Gidole;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    padding: 0px;
+}
+
+center {
+    font-size-adjust: auto;
+}
+
+a.bailfund {
+    font-family: Cornerstone;
+    font-size: 26px;
+    color: black;
+}
+
+.navbar {
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    vertical-align: center;
+    padding: inherit;
+    padding-top: 0px;
+    font-size: 40px;
+    min-width: 1000px;
+    z-index: 3;
+}
+
+.navbar a {
+    color: cornflowerblue;
+    right: 0;
+    margin: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    float: right;
+    font-family: Cornerstone;
+    padding: 15px;
+}
+
+.navbar a.home {
+    float: left;
+}
+
+.navbar a.donate {
+    background-color: deepskyblue;
+    color: black;
+    
+}
+
+@font-face {
+    font-family: Cornerstone;
+    src: url('fonts/Cornerstone.ttf');
+}
+
+@font-face {
+    font-family: Gidole;
+    src: url('fonts/Gidole-Regular.ttf')
+}
